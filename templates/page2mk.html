@@ -1,0 +1,109 @@
+{% extends 'layout.html' %}
+{% load static %}
+
+{% block title %}
+  makerspace2
+{% endblock %}
+
+{% block content %}
+<div class="mkrspace">
+  <div class="container-fluid">
+    <h4>MAKERSPACE LAB</h4> <BR></BR>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="{% static '/PICS/laserprinteruniversal.jpg'%}" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">LASER PRINTER</h5>
+            <p>BRAND NAME: <br>
+              Universal Laser Systems <br>
+              DESCRIPTION:<br>
+              The VLS 3.60DT is the largest desktop model in the series, ideal for start-up businesses or high production. It has a 12" x 24" marking area and a 4" Z-axis, and accepts five laser cartridges. The desktop series is designed with quality components, including air assist, Laser Interface+ software, tempered glass tops, fire alarm, and USB interface. Additional options include the Downdraft Cutting Table, HPDFO, and Rotary Fixture.</p>
+          </div>
+          <div class="card-footer">
+            <p>Click <a href="https://dashboard.coworksapp.com/calendar/add-event">HERE</a> to book a session with the equipment.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="{% static '/PICS/tumblerpress.webp'%}" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">TUMBLER HEAT PRESS</h5>
+            <p>BRAND NAME: <br>
+              PYD Life 2 in 1 Tumbler Press Machine <br>
+              DESCRIPTION:<br>
+              The tumbler press machine is 750 W, 110 V, with a temperature range of 0-482 F and time range of 0-999 S. It comes with two heat press attachments: one for the V3.0 30 oz heat press attachment, and another for new glass tumblers, cans, and kids water bottles. The 30 oz attachment can sublimate 11 or 15 oz ceramic mugs, while the slim attachment can sublimate 17 and 20 oz tumblers, 13 oz cans, 12 oz kids tumblers, and 17 oz cola shaped water bottle. It's easy to use, portable, and requires only a small work space.</p>
+          </div>
+          <div class="card-footer">
+            <p>Click <a href="https://dashboard.coworksapp.com/calendar/add-event">HERE</a> to book a session with the equipment.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="{% static '/PICS/vevorbadgemaker.avif'%}" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">BADGE MAKER</h5>
+            <p> DESCRIPTION:<br>
+              This comprehensive kit includes a pin machine, button molds, circle paper cutters, iron and plastic bottom parts, tin up covers, blank papers, transparent films, hexagon wrenches, and a manual. It is made of high-quality iron and ABS new material, with a solid bottom plate and upgrade rail for long service life. The user manual provides detailed instructions for installing molds and badge-making, while the ergonomic handle offers a comfortable grip.</p>
+          </div>
+          <div class="card-footer">
+            <p>Click <a href="https://dashboard.coworksapp.com/calendar/add-event">HERE</a> to book a session with the equipment.</p>
+          </div>
+        </div>
+      </div>
+    </div> <br> <br> <br>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="{% static '/PICS/labelprinterl3000.webp'%}" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">LABEL PRINTER</h5>
+            <p>BRAND NAME: <br>
+              -Primera LX3000 Color Label Printer</p>
+          </div>
+          <div class="card-footer">
+            <p>Click <a href="https://dashboard.coworksapp.com/calendar/add-event">HERE</a> to book a session with the equipment.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="{% static '/PICS/labelapplicator.webp'%}" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">LABEL APPLICATOR</h5>
+            <p>BRAND NAME: <br>
+              Primera AP362 Label Applicator</p>
+          </div>
+          <div class="card-footer">
+            <p>Click <a href="https://dashboard.coworksapp.com/calendar/add-event">HERE</a> to book a session with the equipment.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="{% static '/PICS/primeralabelprinter.webp'%}" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">PRIMERA LABEL PRINTER</h5>
+            <p>BRAND NAME: <br>
+              Primera LX610 Color Label Printer</p>
+          </div>
+          <div class="card-footer">
+            <p>Click <a href="https://dashboard.coworksapp.com/calendar/add-event">HERE</a> to book a session with the equipment.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br> 
+    <div class="pagination">
+      {% comment %} <a href="#">&laquo;</a> {% endcomment %}
+      <a href="/makerspace">1</a>
+      <a class="active" href="/page2mk">2</a>          
+      <a href="/page3mk">3</a>
+      {% comment %} <a href="#">&raquo;</a> {% endcomment %}
+    </div>
+
+  </div>
+</div>
+{% endblock %}

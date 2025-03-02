@@ -1,0 +1,216 @@
+{% extends 'layout.html' %}
+{% load static %}
+
+{% block title %}
+  About
+{% endblock %}
+
+{% block content %}
+
+
+<div class="mission">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-md-6">
+              <div>
+                <img src="{% static '/PICS/event5.jpg'%}" alt="" width="100%">  
+              </div>
+          </div>
+          <div class="col-md-1">
+
+          </div>
+          <div class="col-md-5">
+            <br>
+              <h5>WHO ARE WE?</h5>
+              <h2>Center for Entrepreneurship and Innovation,
+                 Your hub for Entrepreneurial Excellence!
+              </h2> 
+                 <p>With a dedicated team, we're here to support your journey, 
+                 whether you're a startup or an established business. 
+                 From strategic guidance to practical solutions, count on us to fuel your
+                 innovation at every step.</p>
+                <a href="/faq">
+                  <button type="button">See more!</button>
+                </a>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- partnerships -->
+
+<div class="map">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-md-6"> <br>  
+
+              <h4>LOCATION</h4>
+              <p>Our Office is located on the second floor of Kiah Hall. <br> We host 
+              events every Tuesday at 11am in Room 2115.</p>
+              <br> <br> 
+              <h4>LAB HOURS</h4>
+              <p>Our lab is open to use for free!
+                  <br> Mondays - Fridays <br> 9am - 5pm
+              </p>
+              <!-- <h4>CONTACT US </h4>
+              <p>Email: umescei@gmail.com
+                  <br> Mondays - Fridays <br> 9am - 5pm
+              </p> -->
+              <br> <br>
+          </div>
+          
+          <div class="col-md-6">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3135.1804408595967!2d-75.69167582428572!3d38.20570727187999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b9099360c18acf%3A0xd199eb9b716b1ede!2sKiah%20Hall%2C%2030632%20University%20Blvd%20S%2C%20Princess%20Anne%2C%20MD%2021853!5e0!3m2!1sen!2sus!4v1718303193813!5m2!1sen!2sus" width="100%" height="400vh" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          
+      </div>
+      <br>
+      <br>
+  </div>
+</div>
+<!-- slidding picture thing use kiah hall pic to do it and plca after who we are? -->
+
+{% comment %} <div class="banner2"> {% endcomment %}
+  <!-- <h3>Turn your ideas into realities!</h3> -->
+{% comment %} </div> {% endcomment %}
+
+<div class="bannner3">
+   <img src="{% static '/PICS/bannerthree1.jpg'%}" alt="" width="100%"> 
+   <div class="overlay">
+    <h3>MEET THE TEAM</h3>
+  </div> 
+</div>
+
+
+<div class="team">
+    <div class="container">
+        <div class="row">
+            
+              <div class="col-12"> <br> <br>
+                <h4>STUDENT ASSISTANTS</h4>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card">
+                        <img src="{% static '/PICS/aiyanna.jpg'%}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Aiyanna Wilkins</h5>
+                          <p class="card-text">Meet Aiyanna, a Junior from Prince George’s County, Maryland. She majors in Business Administration, and minors
+                             in fashion merchandising. She is our center’s interior designer.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="{% static '/PICS/damien.jpg'%}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Dameon Thomas II</h5>
+                          <p class="card-text">Meet Dameon, a Junior from Prince George’s County, Maryland, majoring in Hospitality and Tourism. He handles
+                             the center’s designs, specializing in UV printing and development.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="{% static '/PICS/portia.png'%}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Portia Ogbuja</h5>
+                          <p class="card-text">Meet Portia, a Sophomore from Lagos, Nigeria. She majors in Computer Science and  
+                            handles our center’s writing projects as well as our social media. She also designs and maintains our center's website.</p>
+                        </div>
+                      </div>
+                    </div>
+                    {% comment %} <div class="col">
+                      <div class="card">
+                          <img src="{% static '/PICS/Eliza.jpg'%}" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Eliza Anong</h5>
+                            <p class="card-text">Meet Eliza, a graduate student from Montgomery County, Maryland, majoring in Biology. She is our center’s social media personnel,
+                                 and makes flyers as well as other designs for the center’s media platform.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>          {% endcomment %}
+                    
+                    
+                    
+                  </div> 
+
+                  <div class="col-12">
+                      <div class="row row-cols-1 row-cols-md-3 g-4">
+                        {% comment %} <div class="col">
+                          <div class="card">
+                              <img src="{% static '/PICS/myareeves.png'%}" class="card-img-top" alt="..." height="310">
+                              <div class="card-body">
+                                <h5 class="card-title">Mya Reeves</h5>
+                                <p class="card-text">Meet Mya, a Junior from Wilmington, Delaware, 
+                                    majoring in Marketing. She is our center’s livestream editor, specialising in video editing and compilations.</p>
+                              </div>
+                            </div>
+                        </div> {% endcomment %}
+                        
+                        
+                        {% comment %} <div class="col">
+                          <div class="card">
+                            <img src="{% static '/PICS/'%}" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Jaylen....</h5>
+                              <p class="card-text">Meet Jaylen, a senior from , , majoring in ..... She handles most of the center’s </p>
+                            </div>
+                          </div>
+                        </div> {% endcomment %}
+                        {% comment %} <div class="col">
+                          <div class="card">
+                            <img src="{% static '/PICS/portia.png'%}" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Portia Ogbuja</h5>
+                              <p class="card-text">Meet Portia, a Sophomore from Lagos, Nigeria. She majors in Computer Science and  
+                                handles our center’s writing projects as well as graphic designs for event flyers.</p>
+                            </div>
+                          </div>
+                        </div> {% endcomment %}
+                        
+                      </div>   
+              </div>  
+
+              <div class="col-12 ">
+                <br>
+                <h4>FACULTY</h4>
+                <div class="row row-cols-1 row-cols-md-3 g-4 faculty">
+                    <div class="col">
+                      <div class="card">
+                        <img src="{% static '/PICS/dr allison.jpg' %}" class="card-img-top" alt="..." width="100%">
+                        <div class="card-body">
+                          <h5 class="card-title">ALLISON PAMELA, PhD</h5>
+                          <p class="card-text">Endowed Chair</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="{% static '/PICS/Odell Headshot.jpg'%}" class="card-img-top" alt="..." width="100%">
+                        <div class="card-body">
+                          <h5 class="card-title">KEVIN ODELL</h5>
+                          <p class="card-text">Director of Programming & Operations</p>
+                        </div>
+                      </div>
+                    </div>
+                    {% comment %} <div class="col">
+                      <div class="card">
+                        <img src="{% static '/PICS/'%}" class="card-img-top" alt="..." width="100%">
+                        <div class="card-body">
+                          <h5 class="card-title">new staff</h5>
+                          <p class="card-text">position</p>
+                        </div>
+                      </div>
+                    </div> {% endcomment %}
+                  </div> 
+                </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <br> <br> <br> -->
+  
+ 
+{% endblock %}

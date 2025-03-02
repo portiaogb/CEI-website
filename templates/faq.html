@@ -1,0 +1,76 @@
+{% extends 'layout.html' %}
+{% load static %}
+
+{% block title %}
+  faq
+{% endblock %}
+
+{% block content %}
+
+  <img src="{% static '/PICS/f1.png' %}" alt="" width="100%">
+
+<div class="faq2">
+  
+    <div class="faqinner">
+      <button class="accordion">
+        What is CEI?
+        <i class='bx bxs-chevron-down'></i>
+      </button>
+      <div class="pannel">
+        <p>
+          We are the UMES Center for Entrepreneurship and Innovation and are committed to assisting students, faculty, staff, alumni and community 
+          based entrepreneurs to “Build a Business to Soar Above and Beyond”.
+          We provide workshops, seminars, speaker series and other events to help foster this development.
+        </p>
+      </div>
+    </div>
+
+    <div class="faqinner">
+      <button class="accordion">
+        What are your office hours? When can the makerspace be used?
+        <i class='bx bxs-chevron-down'></i>
+      </button>
+      <div class="pannel">
+        <p>
+          Our office hours are from 9am - 5pm and the makerspace can be used during those hours.
+        </p>
+      </div>
+    </div>
+
+    <div class="faqinner">
+      <button class="accordion">
+        Is the makerspace free to use?
+        <i class='bx bxs-chevron-down'></i>
+      </button>
+      <div class="pannel">
+        <p>
+          Yes, it is absolutely free!
+        </p>
+      </div>
+    </div>
+
+    <div class="faqinner">
+      <button class="accordion">
+        Is the makerspace open to the community?
+        <i class='bx bxs-chevron-down'></i>
+      </button>
+      <div class="pannel">
+        <p>
+          All our equipment is open to use for aspiring entrepreneurs and business owners who desire to grow their venture.
+        </p>
+      </div>
+    </div>
+
+    {% comment %} <div class="faqinner">
+      <button class="accordion">
+        What competitions can i get involved in?
+        <i class='bx bxs-chevron-down'></i>
+      </button>
+      <div class="pannel">
+        <p>
+          We host 
+        </p>
+      </div> {% endcomment %}
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,104 @@
+{% extends 'layout.html' %}
+{% load static %}
+
+{% block title %}
+  page2spk
+{% endblock %}
+
+{% block content %}
+<div class="speakers2">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-12">
+        <!-- <h4>SPEAKERS</h4> -->
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="{% static '/PICS/hank&sharyn-yullof.jpg'%}" class="card-img-top" alt="..." >
+                <div class="card-body">
+                  <h5 class="card-title">HANK & SHARYN YULOFF</h5>
+                  <p class="card-text">Founder & CEO, YULOFF Creative LLC</p>
+                  <a href="https://yuloffcreativemarketingsolutions.com/"><i class='bx bx-globe'></i></a>
+                  <a href="https://www.facebook.com/YuloffCreative/"><i class='bx bxl-facebook' ></i></a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col">
+              <div class="card">
+                <img src="{% static '/PICS/caseyjakubowski.jpg'%}" class="card-img-top" alt="..." >
+                <div class="card-body">
+                  <h5 class="card-title">CASEY JAKUBOWSKI</h5>
+                  <p class="card-text">CEO, CTJ Solutions</p>
+                  <a href="https://ctjakubowski.weebly.com/"><i class='bx bx-globe'></i></a>
+                  <a href="https://www.linkedin.com/in/ctjakubowski/"><i class='bx bxl-linkedin' ></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="{% static '/PICS/katyevans.jpg'%}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">KATEY EVANS</h5>
+                  <p class="card-text">CO-Founder, The Frozen Farmer</p>
+                  <a href="https://www.thefrozenfarmer.com/our-story/"><i class='bx bx-globe'></i></a>
+                  <a href="https://www.linkedin.com/in/kateyjoevans/"><i class='bx bxl-linkedin' ></i></a>
+                </div>
+              </div>
+            </div>
+        </div>        
+    </div> 
+    
+    <div class="col-12">
+      <br>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="{% static '/PICS/natashaross1.jpg' %}" class="card-img-top" alt="..." >
+                <div class="card-body">
+                  <h5 class="card-title">NATASHA ROSS</h5>
+                  <p class="card-text">Founder & CEO, NaLiRo Clinical Research</p>
+                  <a href="https://research.naliroclinicalresearch.com/"><i class='bx bx-globe'></i></a>
+                  <a href="https://www.linkedin.com/in/natasha-ross-naliro/"><i class='bx bxl-linkedin' ></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="{% static '/PICS/mauricewaters.jpg' %}" class="card-img-top" alt="..." >
+                <div class="card-body">
+                  <h5 class="card-title">MAURICE WATERS</h5>
+                  <p class="card-text">Founder & CEO, The Brand Digital Media</p>
+                  <a href="https://thebranddigitalmedia.com/"><i class='bx bx-globe'></i></a>
+                  <a href="https://www.facebook.com/TheBrandDigitalMediaLLC"><i class='bx bxl-facebook' ></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="{% static '/PICS/carlabrice.jpg' %}" class="card-img-top" alt="..." >
+                <div class="card-body">
+                  <h5 class="card-title">CARLA BRICE</h5>
+                  <p class="card-text">VP & ASST. Controller IBM</p>
+                  {% comment %} <a href=""><i class='bx bx-globe'></i></a> {% endcomment %}
+                  <a href="https://www.linkedin.com/in/carla-brice-talley-7ab570a/"><i class='bx bxl-linkedin' ></i></a>
+                </div>
+              </div>
+            </div>
+            
+        </div>   
+        <br>
+    </div> 
+    <br> 
+    <div class="pagination">
+        {% comment %} <a href="#">&laquo;</a> {% endcomment %}
+        <a href="/speakers">1</a>
+        <a href="/page2spk">2</a>          
+        <a class="active" href="/page3spk">3</a>
+        {% comment %} <a href="#">&raquo;</a> {% endcomment %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,107 @@
+{% extends 'layout.html' %}
+{% load static %}
+
+{% block title %}
+  speakers
+{% endblock %}
+
+{% block content %}
+
+      <div class="">
+         <img src="{% static '/PICS/speaksuccess.png'%}" alt="" width="100%"> 
+      </div>
+
+      <div class="speakers2">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-12">
+              <!-- <h4>SPEAKERS</h4> -->
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card">
+                      <img src="{% static '/PICS/CRYSTALBERGER'%}" class="card-img-top" alt="..." >
+                      <div class="card-body">
+                        <h5 class="card-title">CRYSTAL BERGER</h5>
+                        <p class="card-text">Founder & CEO, EBO™</p>
+                        <a href="https://www.crystalberger.com/"><i class='bx bx-globe'></i></a>
+                        <a href="https://www.linkedin.com/in/crystal-i-berger-as-seen-on-fox-52527b6/"><i class='bx bxl-linkedin' ></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                      <div class="card">
+                        <img src="{% static '/PICS/TRENAEWATSON.jpg'%}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">TRENAE WATSON</h5>
+                          <p class="card-text">Founder & CEO, TLW Consulting</p>
+                          <a href="https://trenaewatson.com/"><i class='bx bx-globe'></i></a>
+                          <a href="https://www.linkedin.com/in/trenaewatson0tlwconsulting/"><i class='bx bxl-linkedin' ></i></a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="{% static '/PICS/Dr. Nicole Odom-Hardnett.jpg'%}" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">NICOLE ODOM-HARDNETT, PhD</h5>
+                        <p class="card-text">Founder & CEO, Focus Point Healthcare</p>
+                        <a href="https://www.talktonicole.com/"><i class='bx bx-globe'></i></a>
+                        <a href="https://www.linkedin.com/in/nicole-odom-hardnett-phd-331aa71a7/"><i class='bx bxl-linkedin' ></i></a>
+                      </div>
+                    </div>
+                  </div>
+              </div>        
+          </div> 
+      
+          <div class="col-12">
+            <br>
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card">
+                      <img src="{% static '/PICS/BERNARD JOHNSON.png'%}" class="card-img-top" alt="..." >
+                      <div class="card-body">
+                        <h5 class="card-title">BRENARD JOHNSON</h5>
+                        <p class="card-text">Founder & CEO, Johnson's Cleaning Services</p>
+                        <a href="https://www.facebook.com/Johnsonscleaningservicesmd/"><i class='bx bxl-facebook'></i></a>
+                        <a href="https://www.linkedin.com/in/bernard-johnson-038968280/"><i class='bx bxl-linkedin' ></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="{% static '/PICS/REGINA ROBINSON.jpg'%}" class="card-img-top" alt="..." >
+                      <div class="card-body">
+                        <h5 class="card-title">REGINA ROBINSON</h5>
+                        <p class="card-text">Owner & CEO, SUITED 4 SUCCESS</p>
+                        <a href="https://reginarobinsonspeaks.com/"><i class='bx bx-globe'></i></a>
+                        <a href="https://www.linkedin.com/in/reginarobinsonspeaks/"><i class='bx bxl-linkedin' ></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                      <div class="card">
+                        <img src="{% static '/PICS/AMY STWART.png'%}" class="card-img-top" alt="..." >
+                        <div class="card-body">
+                          <h5 class="card-title">AMY STEWART, PhD</h5>
+                          <p class="card-text">Founder & CEO, The Night Watch Childcare</p>
+                          <a href="https://www.instagram.com/thenightwatchchildcare/"><i class='bx bxl-instagram'></i></a>
+                          <a href="https://www.linkedin.com/in/dr-amy-stewart-677bb879/"><i class='bx bxl-linkedin' ></i></a>
+                        </div>
+                      </div>
+                    </div>
+              </div> 
+              <br>  
+          </div> 
+          <br> 
+          <div class="pagination">
+            {% comment %} <a href="#">&laquo;</a> {% endcomment %}
+            <a class="active" href="/speakers">1</a>
+            <a href="/page2spk">2</a>          
+            <a href="/page3spk">3</a>
+            {% comment %} <a href="#">&raquo;</a> {% endcomment %}
+          </div>
+          </div>
+        </div>
+      </div>
+{% endblock %}

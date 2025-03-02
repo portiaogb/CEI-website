@@ -1,0 +1,731 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-size: 17px;
+}
+.body{
+    width: 100%;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    position: sticky !important;
+}
+.navigation{
+    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(197, 196, 196); */
+    /* background-color: #686868; */
+    position: sticky !important;
+}
+.navigation p{
+    font-size: 11px;
+    font-weight: 600;
+    color: black;
+    /* letter-spacing: 0.2px; */
+}
+.navigation a{
+    color: black;
+}
+.navigation ul{
+    margin-left: 65%;
+    font-weight: 550;   
+}
+.navbar .container-fluid{
+    margin: 0% 5%;
+}
+.navigation .button{
+    background-color: #706c6c;
+}
+.banner{
+    /* background-image: url("/PICS/banncopy1.png"); */
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+}
+
+.aboutus{
+    padding: 4% 8%;
+    /* background-color: rgb(246, 244, 244); */
+    background-color: white;
+}
+.aboutus h5:hover{
+    color: black;
+    transform: translateX(3px);
+    transition: 1s;
+}
+.aboutus h5{
+    color: gray;
+}
+.aboutus h3{
+    color: rgb(148, 5, 5);
+    font-weight: 650;
+    font-size: 25px;
+}
+.aboutus .col-md-5{
+    margin-top: 2%;
+}  
+.aboutus p{
+    color: black;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+
+.aboutus a{
+    text-decoration: none;
+}
+.aboutus i{
+    color: black;
+}
+.speakers{
+    padding: 5% 6%;
+    margin-left: 2%;
+    /* background-color: rgb(246, 244, 244); */
+    background-color: white;
+}
+.speakers h3{
+    color: rgb(148, 5, 5);
+    font-weight: 650;
+    font-size: 22px;
+}
+.speakers h5{
+    color: rgb(81, 78, 78);
+    font-weight: 700;
+}
+.speakers p{
+    color: maroon;
+    font-weight: 500;
+}
+.speakers i:hover{
+    transform: translateX(4px);
+    transition: 1s;
+    color: gray;
+}
+.speakers .col{
+    display: flex;
+    margin-bottom: 5%;
+}
+.speakers .card-body{
+    margin: 12% 0% 0% 3%;
+}
+.speakers .cardtwo{
+    margin-left: 12.5%;
+}
+.speakers .cardtwo:hover{
+    transform: translateX(4px);
+    transition: 1s;
+}
+.speakers2{
+    padding: 5% 12%;
+    /* background-color: rgb(197, 196, 196); */
+    /* background-color: rgb(246, 244, 244); */
+    background-color: white;
+}
+.speakers2 .col{
+    padding: 1% 1.5%;
+}
+.speakers2 h5{
+    color: maroon;
+    font-weight: 700;
+    font-size: 19.5px;
+}
+.speakers2 h4{
+    color: maroon;
+    font-weight: 700;
+}
+.speakers2 p{
+    font-size: 16px;
+    color: gray;
+}
+.speakers2 .card-img-top{
+    max-height: 400pc;
+}
+.speakers2 i{
+    color: #686868;
+}
+.whole h3{
+    color: white;
+}
+.whole{
+    background-color: #5a191d;
+    border-radius: 0.5rem;
+    padding: 4% 5%;
+}
+.whole a{
+    text-decoration: none;
+}
+.mkrspace{
+    /* background-color: rgb(197, 196, 196); */
+    /* background-color: rgb(246, 244, 244); */
+    background-color: white;
+    padding: 6% 12%;
+}
+.mkrspace h4{
+    color: #5a191d;
+    font-weight: 700;
+}
+.mkrspace a{
+    text-decoration: none;
+    color: gray;
+}
+.mkrspace a:hover{
+    color: black;
+}
+.mission{
+    padding: 5% 8%;
+    /* background-color: rgb(197, 196, 196); */
+    /* background-color: rgb(246, 244, 244); */
+    background-color: white;
+}
+.mission p{
+    font-size: 17px;
+    color: rgb(100, 99, 99);
+}
+.mission h5{
+    font-weight: 700;
+    color: black;
+    margin-bottom: 5%;
+}
+.mission button{
+    padding: 1.8% 2%;
+    background-color: maroon;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 0.5rem;
+}
+.mission h2{
+    color: maroon;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+}
+.missionev{
+    padding: 5% 9%;
+    /* background-color: rgb(246, 244, 244); */
+    background-color: white;
+}
+.missionev p{
+    font-size: 16.5px;
+    color: black;
+}
+.missionev .col-md-5{
+    margin-top: 5%;
+}
+.missionev h5{
+    font-weight: 700;
+    color: black;
+    margin-bottom: 5%;
+}
+.missionev button{
+    padding: 1.5%;
+    background-color: maroon;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 0.5rem;
+}
+.missionev h2{
+    color: maroon;
+    font-size: 22px;
+}
+.bigpicevents{
+    padding: 8% 10%;
+    /* background-color: rgb(246, 244, 244); */
+    background-color: white;
+}
+.bigpicevents2{
+    /* background-image: url("../PICS/mkrsp3copy.jpg");  */
+    /* height: 70vh; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* background-attachment: fixed; */
+    text-align: center;
+}
+.bigpicevents3{
+    /* background-image: url("../PICS/startuptosuccess.svg");
+    height: 70vh; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* background-attachment: fixed; */
+    text-align: center;
+}
+.faq{
+    /* background-image: url("../PICS/f1.png"); */
+    /* height: 50vh; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* background-attachment: fixed; */
+}
+.faq2{
+    max-width: 75%;
+    margin: auto;
+    padding: 6% 0%;
+}
+.faq2 > p{
+    margin: 1.5rem 0;
+    text-align: center;
+}
+.accordion{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 2rem 2.5rem;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold; 
+}
+.accordion i{
+    font-size: 1.6rem;
+    color: black;
+}
+.accordion:hover{
+    background-color: rgb(235, 232, 232);
+}
+.pannel{
+    padding: 0 2rem 2.5rem 2rem;
+    background-color: white;
+    overflow: hidden;
+    background-color: rgb(235, 232, 232);
+    display: none;
+}
+.pannel p{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+.faqinner{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
+    
+}
+.faqinner.active{
+    border: none;
+}
+.footer{
+    background-color: #686868;
+    padding: 6% 10% 2%;
+}
+.footer p{
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-flex;
+}
+.footer img{
+    margin-top: 12%;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer h4{
+    font-size: 19px;
+}
+.footer h4, h3{
+    color: gainsboro;
+}
+.footer h3{
+    color: white;
+}
+.footer label{
+    color: gainsboro;
+}
+.footer p, i{
+    color: gainsboro;
+}
+.footer a:hover{
+    color: maroon;
+}
+.footer i:hover{
+    transform: translateY(-3px);
+    transition: 1s;
+    color: maroon;  
+}
+.footer input{
+    width: 110%;
+}
+.footer button:hover{
+    background-color: gainsboro;
+    color: black;
+}
+
+/* aboutpage */
+.banner2{
+    background-image: url("../PICS/aboutban.jpg");
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    text-align: center;
+}
+.banner2 h3{
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+    padding-top: 8%;
+    font-weight: 500;
+}
+.bannner3{
+    position: relative; /* Ensure relative positioning for absolute overlay */
+    width: 100%; /* Adjust as needed */
+}
+.bannner3 img{
+    width: 100%;
+    display: block;
+    height: 60vh;
+}
+.bannner3 .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 0, 0, 0.45); /* Maroon with 70% opacity */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; /* Text color */
+    padding: 20px; /* Adjust as needed */
+    box-sizing: border-box; /* Ensures padding is included in width/height */
+}
+.bannner3 h3{
+    font-weight: 700;
+    font-size: 40px;
+}
+.map{
+    padding: 4% 8%;
+    /* background-color: rgb(246, 244, 244); */
+    background-color: white;
+}
+.map h4{
+    color: maroon;
+    font-weight: 700;
+    font-size: 22px;
+}
+.map p{
+    font-size: 17px;
+    color: black;
+}
+.map iframe{
+    box-shadow: 5px 5px 5px 5px gainsboro;
+}
+.map iframe:hover{
+    transition: 1s;
+    transform: translateY(2px);
+}
+
+/* team  */
+.team{
+    /* background-color: rgb(246, 244, 244); */
+    background-color: white;
+    padding: 5% 12%;
+}
+.team .row{
+    padding: 3% 1%;
+}
+.team .faculty h5{
+    text-align: left;
+}
+.team .faculty p{
+    text-align: left;
+    font-weight: bold;
+}
+.team h4{
+    color: rgb(148, 5, 5);
+    font-weight: 650;
+    font-size: 30px;
+    margin-left: 2%;
+}
+.team img{
+    /* border-radius: 90%; */
+    height: 35vh;
+    width: 100%;
+}
+.team .card{
+    width: 100%;
+    display: flex;
+}
+.team h5{
+    /* text-align: center; */
+    padding: 1% 0%;
+    color: maroon;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.team p{
+    font-size: 16px;
+    color: black;
+    /* align-items: center; */
+}
+
+/* pagination */
+.pagination{
+    margin-left: 0%;
+}
+.pagination a{
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  margin: 0% 0.3%;
+  border: solid gainsboro;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+/* Style the active/current link */
+.pagination a.active {
+  background-color: maroon;
+  color: white;
+}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+/* .tour h3{
+    color: rgb(103, 103, 103);
+    font-size: 25px;
+    font-weight: 700;
+} */
+.tour{
+    padding: 4% 0 4% 4%;
+    /* background-color: rgb(246, 244, 244); */
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 485px) {
+    .aboutus h5{
+        font-size: 16px;
+    }
+    .aboutus h3{
+        font-size: 17px;
+    }
+    .aboutus p{
+        font-size: 14px;
+    }
+    .speakers h3{
+        font-size: 17px;
+    }
+    .speakers h5{
+        font-size: 16px;
+    }
+    .speakers p{
+        font-size: 14px;
+    }
+    .mkrspace h4{
+        font-size: 19px;
+    }
+    .mkrspace h5{
+        font-size: 16px;
+    }
+    .mkrspace p{
+        font-size: 14px
+    }
+    .footer p{
+        font-size: 14px;
+    }
+    .footer h4{
+        font-size: 15px;
+    }
+    .footer h3{
+        font-size: 17px;
+    }
+    .footer a{
+        font-size: 13px;
+    }
+    .footer i{
+        size: 0.05rem;
+    }
+    .map h4{
+        font-size: 19px;
+    }
+    .map p{
+        font-size: 14px;
+    }
+    .missionev p{
+        font-size: 14px;
+    }
+    .missionev h5{
+        font-size: 16px;
+    }
+    .missionev h2{
+        color: maroon;
+        font-size: 17px;
+    }
+    .mission p{
+        font-size: 14px;
+    }
+    .mission a{
+        font-size: 14px;
+    }
+    .mission .button{
+        padding: 2% 1%;
+    }
+    .mission h5{
+        font-size: 16px;
+    }
+    .mission h2{
+        color: maroon;
+        font-size: 17px;
+    }
+    .team h5{
+        font-size: 17px;
+    } 
+    .team p{
+        font-size: 14px;
+    }
+    .accordion{   
+        font-size: 0.8rem;
+    }
+    .accordion i{
+        font-size: 0.8rem;
+    }
+    .pannel{
+        padding: 0 1rem 1.5rem 1rem;
+    }
+    .pannel p{   
+        font-size: 0.8rem;
+    }
+    .team h5{
+        text-align: center;
+    } 
+    .team .faculty{
+        margin-right: 0.01%; 
+    }  
+    .team img{
+        width: 100%;
+    }
+    .bannner3 img{
+        width: 100%;
+        display: block;
+        height: 30vh;
+    }
+    .bannner3 h3{
+        font-weight: 700;
+        font-size: 25px;
+    }
+
+}
+@media (width:768px){
+    .team img{
+        width: 105vh;
+        height: 30vh;
+    }
+    .team p{
+        font-size: 13.5px;
+    } 
+    .team h5{
+        font-size: 17px;
+    } 
+    .whole h5{
+        font-size: 19px;
+    }
+    .speakers h5{
+        font-size: 19px;
+    }
+    .speakers p{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-height: 1366px) and (orientation: portrait){
+    .team .card{
+        width: 100%;
+    }
+    .team img{
+        width: 100%;
+        height: 30vh;
+    }
+}
+
+
+@media (max-width: 1515px) {
+    /* .body{
+        visibility: collapse;
+    } */
+    /* .img{
+        height: 25vh;
+        width: 15vh;
+    } */
+    /* .team p{
+        text-align: center;
+    } */
+    .team h4{
+        font-size: 23px;
+    }
+    .team img{
+        width: 100%;
+    }
+    .navigation ul{
+        margin-left: 33%;
+    }
+    .banner3{
+        width: 100%;
+    }
+    .banner2{
+        width: 100%;
+        height: 100%;
+    }
+    .bigpicevents2{
+        width: 100%;
+    }
+    .bigpicevents3{
+        width: 100%;
+    }
+    .faq{
+        width: 100%;
+    }
+    .missionev .col-md-5{
+        margin-top: 0%;
+    }
+    .mission .col-md-5{
+        margin-top: 0%;
+    }
+    .aboutus .col-md-5{
+        margin-top: 0%;
+    }   
+    .speakers2 .card{
+        height: 100%;
+    }
+    .footer h4{
+        padding-top: 5%;
+    }
+} 

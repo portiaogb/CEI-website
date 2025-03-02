@@ -1,0 +1,106 @@
+{% extends 'layout.html' %}
+{% load static %}
+
+{% block title %}
+  page2spk
+{% endblock %}
+
+{% block content %}
+<div class="speakers2">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-12">
+        <!-- <h4>SPEAKERS</h4> -->
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            
+            <div class="col">
+              <div class="card">
+                <img src="{% static '/PICS/michelleleveque.jpg'%}" class="card-img-top" alt="..." >
+                <div class="card-body">
+                  <h5 class="card-title">MICHELLE LEVEQUE</h5>
+                  <p class="card-text">Founder, Leveque IP Law</p>
+                  <a href="https://www.levequeintellectualpropertylaw.com/michelle.html"><i class='bx bx-globe'></i></a>
+                  <a href="https://www.linkedin.com/in/michelle-leveque-5b2036a/"><i class='bx bxl-linkedin' ></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="{% static '/PICS/rjbatts.webp'%}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">RJ BATTS</h5>
+                  <p class="card-text">Founder & CEO, TIP TOUGH</p>
+                  <a href="https://www.tiptough.com/"><i class='bx bx-globe'></i></a>
+                  <a href="https://www.linkedin.com/in/rj-batts-b241a6184/"><i class='bx bxl-facebook' ></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="{% static '/PICS/jaiellis.jpg'%}" class="card-img-top" alt="..." >
+                <div class="card-body">
+                  <h5 class="card-title">JAI ELLIS</h5>
+                  <p class="card-text">CEO, 5 STAR Mobile Salon</p>
+                  <a href="https://www.facebook.com/people/5-Star-Mobile-Salon-Inc/61558500316922/"><i class='bx bxl-facebook'></i></a>
+                  <a href="https://www.linkedin.com/in/jaiellis/"><i class='bx bxl-linkedin' ></i></a>
+                </div>
+              </div>
+            </div>
+            
+        </div>        
+    </div> 
+    
+    <div class="col-12">
+      <br>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            
+            <div class="col">
+              <div class="card">
+                <img src="{% static '/PICS/ebonyjenkins.webp'%}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">EBONY JENKINS, PhD</h5>
+                  <p class="card-text">CEO, EDIBLE INSECTS</p>
+                  {% comment %} <a href=""><i class='bx bx-globe'></i></a> {% endcomment %}
+                  <a href="https://www.linkedin.com/in/ebony-jenkins-ph-d-210891174/"><i class='bx bxl-linkedin' ></i></a>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="{% static '/PICS/deondraparks.webp'%}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">DEONDRA PARKS</h5>
+                <p class="card-text">CEO, The RFC Group</p>
+                {% comment %} <a href=""><i class='bx bx-globe'></i></a> {% endcomment %}
+                <a href="https://www.facebook.com/TheRFCGroupLLCH3StaffingService"><i class='bx bxl-facebook' ></i></a>
+              </div>
+            </div>
+        </div>
+            <div class="col">
+              <div class="card">
+                <img src="{% static '/PICS/joelolive.webp'%}" class="card-img-top" alt="..." >
+                <div class="card-body">
+                  <h5 class="card-title">JOEL OLIVE</h5>
+                  <p class="card-text">CEO, Mojo's Restaurant</p>
+                  <a href="https://www.mojossalisbury.com/"><i class='bx bx-globe'></i></a>
+                  <a href="https://www.facebook.com/MoJosdog/"><i class='bx bxl-facebook' ></i></a>
+                </div>
+              </div>
+            </div>
+            
+        </div>   
+        <br>
+    </div> 
+    <br> 
+    <div class="pagination">
+      {% comment %} <a href="#">&laquo;</a> {% endcomment %}
+      <a href="/speakers">1</a>
+      <a class="active" href="/page2spk">2</a>          
+      <a href="/page3spk">3</a>
+      {% comment %} <a href="#">&raquo;</a> {% endcomment %}
+    </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
