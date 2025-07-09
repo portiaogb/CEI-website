@@ -1,1 +1,1 @@
-# CEI-website
+# CEI prototype website
